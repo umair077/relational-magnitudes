@@ -6,7 +6,7 @@
 
 ## I. Definitions I (Relational Magnitudes)
 
-The **relational position** ($\mathbf{r}\_i$), **relational velocity** ($\mathbf{v}\_i$), and **relational acceleration** ($\mathbf{a}\_i$) of a **particle $i$**, relative to the **Auxiliary Reference System**, are given by:
+The **relational position** ($\mathbf{r}\_i$), **relational velocity** ($\mathbf{v}\_i$), and **relational acceleration** ($\mathbf{a}\_i$) of a **particle $i$**, relative to an **Auxiliary Reference Frame**, are given by:
 
 $\mathbf{r}\_i \doteq \vec{r}\_i$
 
@@ -14,34 +14,34 @@ $\mathbf{v}\_i \doteq \dfrac{d(\vec{r}\_i)}{dt} = \vec{v}\_i$
 
 $\mathbf{a}\_i \doteq \dfrac{d^2(\vec{r}\_i)}{dt^2} = \vec{a}\_i$
 
-Where $\vec{r}\_i$, $\vec{v}\_i$ and $\vec{a}\_i$ are the ordinary vectorial position, velocity, and acceleration of the particle $i$ with respect to the **Arbitrary Reference System**.
+Where $\vec{r}\_i$, $\vec{v}\_i$ and $\vec{a}\_i$ are the ordinary vectorial position, velocity, and acceleration of the particle $i$ with respect to the **Auxiliary Reference Frame**.
 
 **Note**
 
-The Relational (Vectorial) Magnitudes are always the same as the Ordinary (Vectorial) Magnitudes in the Auxiliary Reference System.
+The Relational (Vectorial) Magnitudes are always the same as the Ordinary (Vectorial) Magnitudes in the Auxiliary Reference Frame.
 
 ---
 
 ## II. Definitions II (Relational Magnitudes)
 
-The relational position ($\mathbf{r}\_i$), relational velocity ($\mathbf{v}\_i$), and relational acceleration ($\mathbf{a}\_i$) of a **particle $i$** with respect to any Reference System $S$, are given by:
+The relational position ($\mathbf{r}\_i$), relational velocity ($\mathbf{v}\_i$), and relational acceleration ($\mathbf{a}\_i$) of a particle $i$ with respect to any Reference Frame $S$, are given by:
 
 $\mathbf{r}\_i \doteq \vec{r}\_i - \vec{R}$
 
 $\mathbf{v}\_i \doteq (\vec{v}\_i - \vec{V}) - \vec{\omega} \times (\vec{r}\_i - \vec{R})$
 
-$\mathbf{a}\_i \doteq (\vec{a}\_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}\_i - \vec{V}) + \vec{\omega} \times [\vec{\omega} \times (\vec{r}\_i - \vec{R})] - \vec{\alpha} \times (\vec{r}\_i - \vec{R})$
+$\mathbf{a}\_i \doteq (\vec{a}\_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}\_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}\_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}\_i - \vec{R})$
 
 Where:
-* $\vec{r}\_i, \vec{v}\_i, \vec{a}\_i$ are the ordinary vectorial position, velocity, and acceleration of particle $i$ with respect to the system $S$.
-* $\vec{R}, \vec{V}, \vec{A}$ are the position, velocity, and acceleration of the Auxiliary System's origin with respect to $S$.
-* $\vec{\omega}$ and $\vec{\alpha}$ are the angular velocity and angular acceleration of the Auxiliary System with respect to $S$.
+* $\vec{r}\_i, \vec{v}\_i, \vec{a}\_i$ are the ordinary vectorial position, velocity, and acceleration of particle $i$ with respect to the Frame $S$.
+* $\vec{R}, \vec{V}, \vec{A}$ are the position, velocity, and acceleration of the Auxiliary Frame's origin with respect to $S$.
+* $\vec{\omega}$ and $\vec{\alpha}$ are the angular velocity and angular acceleration of the Auxiliary Frame with respect to $S$.
 
 ---
 
 ## III. Transformations (Invarianza)
 
-The transformations of relational position, relational velocity and relational acceleration of a **particle $i$** between a reference frame $S$ and another reference frame $S'$, are given by:
+The transformations of relational position, relational velocity and relational acceleration of a particle $i$ between a Reference Frame $S$ and another Reference Frame $S'$, are given by:
 
 $\mathbf{r}\_i \doteq (\vec{r}\_i - \vec{R}) = \mathbf{r}'\_i$
 
@@ -51,9 +51,9 @@ $\mathbf{v}\_i \doteq (\vec{v}\_i - \vec{V}) - \vec{\omega} \times (\vec{r}\_i -
 
 $\mathbf{v}'\_i \doteq (\vec{v}'\_i - \vec{V}') - \vec{\omega}' \times (\vec{r}'\_i - \vec{R}') = \mathbf{v}\_i$
 
-$\mathbf{a}\_i \doteq (\vec{a}\_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}\_i - \vec{V}) + \vec{\omega} \times [\vec{\omega} \times (\vec{r}\_i - \vec{R})] - \vec{\alpha} \times (\vec{r}\_i - \vec{R}) = \mathbf{a}'\_i$
+$\mathbf{a}\_i \doteq (\vec{a}\_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}\_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}\_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}\_i - \vec{R}) = \mathbf{a}'\_i$
 
-$\mathbf{a}'\_i \doteq (\vec{a}'\_i - \vec{A}') - 2\vec{\omega}' \times (\vec{v}'\_i - \vec{V}') + \vec{\omega}' \times [\vec{\omega}' \times (\vec{r}'\_i - \vec{R}')] - \vec{\alpha}' \times (\vec{r}'\_i - \vec{R}') = \mathbf{a}\_i$
+$\mathbf{a}'\_i \doteq (\vec{a}'\_i - \vec{A}') - 2\vec{\omega}' \times (\vec{v}'\_i - \vec{V}') + \vec{\omega}' \times [\ \vec{\omega}' \times (\vec{r}'\_i - \vec{R}')\ ] - \vec{\alpha}' \times (\vec{r}'\_i - \vec{R}') = \mathbf{a}\_i$
 
 ---
 
