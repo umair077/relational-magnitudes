@@ -102,7 +102,7 @@
 
         <h2>I. Definiciones I (Magnitudes Relacionales)</h2>
         
-        <p>La posición relacional ($\mathbf{r}_i$), la velocidad relacional ($\mathbf{v}_i$) y la aceleración relacional ($\mathbf{a}_i$) de una partícula $i$, relativas al Sistema de Referencia Auxiliar, están dadas por:</p>
+        <p>La posición relacional ($\mathbf{r}_i$), la velocidad relacional ($\mathbf{v}_i$) y la aceleración relacional ($\mathbf{a}_i$) de una partícula $i$ con respecto a un Sistema de Referencia Auxiliar, están dadas por:</p>
         
         <div class="math-block">
             $\mathbf{r}_i \doteq \vec{r}_i$
@@ -114,7 +114,7 @@
             $\mathbf{a}_i \doteq \dfrac{d^2(\vec{r}_i)}{dt^2} = \vec{a}_i$
         </div>
 
-        <p>Donde $\vec{r}_i$, $\vec{v}_i$ y $\vec{a}_i$ son la posición vectorial ordinaria, velocidad y aceleración de la partícula $i$ con respecto al Sistema de Referencia Arbitrario.</p>
+        <p>Donde $\vec{r}_i$, $\vec{v}_i$ y $\vec{a}_i$ son la posición vectorial ordinaria, velocidad y aceleración de la partícula $i$ con respecto al Sistema de Referencia Auxiliar.</p>
         
         <p><strong>Nota</strong></p>
         <p>Las Magnitudes Relacionales (Vectoriales) son siempre las mismas que las Magnitudes Ordinarias (Vectoriales) en el Sistema de Referencia Auxiliar.</p>
@@ -132,12 +132,12 @@
             $\mathbf{v}_i \doteq (\vec{v}_i - \vec{V}) - \vec{\omega} \times (\vec{r}_i - \vec{R})$
         </div>
         <div class="math-block">
-            $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\vec{\omega} \times (\vec{r}_i - \vec{R})] - \vec{\alpha} \times (\vec{r}_i - \vec{R})$
+            $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}_i - \vec{R})$
         </div>
 
         <p>Donde:</p>
         <ul>
-            <li>$\vec{r}_i, \vec{v}_i, \vec{a}_i$ son la posición vectorial ordinaria, velocidad y aceleración de la partícula $i$ con respecto al sistema $S$.</li>
+            <li>$\vec{r}_i, \vec{v}_i, \vec{a}_i$ son la posición vectorial ordinaria, velocidad y aceleración de la partícula $i$ con respecto al Sistema $S$.</li>
             <li>$\vec{R}, \vec{V}, \vec{A}$ son la posición, velocidad y aceleración del origen del Sistema Auxiliar con respecto a $S$.</li>
             <li>$\vec{\omega}$ y $\vec{\alpha}$ son la velocidad angular y la aceleración angular del Sistema Auxiliar con respecto a $S$.</li>
         </ul>
@@ -146,7 +146,7 @@
 
         <h2>III. Transformaciones (Invarianza)</h2>
 
-        <p>Las transformaciones de la posición relacional, la velocidad relacional y la aceleración relacional de una partícula $i$ entre un marco de referencia $S$ y otro marco de referencia $S'$, están dadas por:</p>
+        <p>Las transformaciones de la posición relacional, la velocidad relacional y la aceleración relacional de una partícula $i$ entre un Sistema de Referencia $S$ y otro Sistema de Referencia $S'$, están dadas por:</p>
 
         <div class="math-block">
             $\mathbf{r}_i \doteq (\vec{r}_i - \vec{R}) = \mathbf{r}'_i$
@@ -161,10 +161,10 @@
             $\mathbf{v}'_i \doteq (\vec{v}'_i - \vec{V}') - \vec{\omega}' \times (\vec{r}'_i - \vec{R}') = \mathbf{v}_i$
         </div>
         <div class="math-block">
-            $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\vec{\omega} \times (\vec{r}_i - \vec{R})] - \vec{\alpha} \times (\vec{r}_i - \vec{R}) = \mathbf{a}'_i$
+            $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}_i - \vec{R}) = \mathbf{a}'_i$
         </div>
         <div class="math-block">
-            $\mathbf{a}'_i \doteq (\vec{a}'_i - \vec{A}') - 2\vec{\omega}' \times (\vec{v}'_i - \vec{V}') + \vec{\omega}' \times [\vec{\omega}' \times (\vec{r}'_i - \vec{R}')] - \vec{\alpha}' \times (\vec{r}'_i - \vec{R}') = \mathbf{a}_i$
+            $\mathbf{a}'_i \doteq (\vec{a}'_i - \vec{A}') - 2\vec{\omega}' \times (\vec{v}'_i - \vec{V}') + \vec{\omega}' \times [\ \vec{\omega}' \times (\vec{r}'_i - \vec{R}')\ ] - \vec{\alpha}' \times (\vec{r}'_i - \vec{R}') = \mathbf{a}_i$
         </div>
 
         <hr>
