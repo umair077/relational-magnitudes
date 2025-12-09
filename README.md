@@ -14,7 +14,7 @@ $\mathbf{v}\_i \doteq \dfrac{d(\vec{r}\_i)}{dt} = \vec{v}\_i$
 
 $\mathbf{a}\_i \doteq \dfrac{d^2(\vec{r}\_i)}{dt^2} = \vec{a}\_i$
 
-Where $\vec{r}\_i$, $\vec{v}\_i$ and $\vec{a}\_i$ are the ordinary vectorial position, velocity, and acceleration of the particle $i$ with respect to the **Auxiliary Reference Frame**.
+Where $\vec{r}\_i$, $\vec{v}\_i$ and $\vec{a}\_i$ are the ordinary vectorial position, velocity, and acceleration of the particle $i$ with respect to the Auxiliary Reference Frame.
 
 **Note**
 
