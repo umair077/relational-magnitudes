@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relational Magnitudes</title> 
+    <link rel="icon" href="favicon.svg">
 
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 1px dashed #ecf0f1;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        blockquote {
+            border-left: 5px solid #3498db;
+            background-color: #ecf0f1;
+            padding: 10px 20px;
+            margin: 20px 0;
+            color: #555;
+            font-style: italic;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 30px 0;
+        }
+        .math-block {
+            display: block;
+            text-align: left; 
+            margin: 15px 0 15px 50px; 
+            font-size: 1.1em;
+            overflow-x: auto;
+        }
+        ol, ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Relational Magnitudes</h1>
+
+        <blockquote>
+            Relational Magnitudes are invariant vectorial quantities that conserve their value and form under transformations of translation and rotation.
+        </blockquote>
+
+        <hr>
+
+        <h2>I. Definitions I (Relational Magnitudes)</h2>
+        
+        <p>The <strong>relational position</strong> ($\mathbf{r}_i$), <strong>relational velocity</strong> ($\mathbf{v}_i$), and <strong>relational acceleration</strong> ($\mathbf{a}_i$) of a <strong>particle $i$</strong>, relative to the <strong>Auxiliary Reference System</strong>, are given by:</p>
+        
+        <div class="math-block">
+            $\mathbf{r}_i \doteq \vec{r}_i$
+        </div>
+        <div class="math-block">
+            $\mathbf{v}_i \doteq \dfrac{d(\vec{r}_i)}{dt} = \vec{v}_i$
+        </div>
+        <div class="math-block">
+            $\mathbf{a}_i \doteq \dfrac{d^2(\vec{r}_i)}{dt^2} = \vec{a}_i$
+        </div>
+
+        <p>Where $\vec{r}_i$, $\vec{v}_i$ and $\vec{a}_i$ are the ordinary vectorial position, velocity, and acceleration of the particle $i$ with respect to the <strong>Arbitrary Reference System</strong>.</p>
+        
+        <p><strong>Note</strong></p>
+        <p>The Relational (Vectorial) Magnitudes are always the same as the Ordinary (Vectorial) Magnitudes in the Auxiliary Reference System.</p>
+
+        <hr>
+
+        <h2>II. Definitions II (Relational Magnitudes)</h2>
+
+        <p>The relational position ($\mathbf{r}_i$), relational velocity ($\mathbf{v}_i$), and relational acceleration ($\mathbf{a}_i$) of a <strong>particle $i$</strong> with respect to any Reference System $S$, are given by:</p>
+
+        <div class="math-block">
+            $\mathbf{r}_i \doteq \vec{r}_i - \vec{R}$
+        </div>
+        <div class="math-block">
+            $\mathbf{v}_i \doteq (\vec{v}_i - \vec{V}) - \vec{\omega} \times (\vec{r}_i - \vec{R})$
+        </div>
+        <div class="math-block">
+            $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\vec{\omega} \times (\vec{r}_i - \vec{R})] - \vec{\alpha} \times (\vec{r}_i - \vec{R})$
+        </div>
+
+        <p>Where:</p>
+        <ul>
+            <li>$\vec{r}_i, \vec{v}_i, \vec{a}_i$ are the ordinary vectorial position, velocity, and acceleration of particle $i$ with respect to the system $S$.</li>
+            <li>$\vec{R}, \vec{V}, \vec{A}$ are the position, velocity, and acceleration of the Auxiliary System's origin with respect to $S$.</li>
+            <li>$\vec{\omega}$ and $\vec{\alpha}$ are the angular velocity and angular acceleration of the Auxiliary System with respect to $S$.</li>
+        </ul>
+
+        <hr>
+
+        <h2>III. Transformations (Invarianza)</h2>
+
+        <p>The transformations of relational position, relational velocity and relational acceleration of a <strong>particle $i$</strong> between a reference frame $S$ and another reference frame $S'$, are given by:</p>
+
+        <div class="math-block">
+            $\mathbf{r}_i \doteq (\vec{r}_i - \vec{R}) = \mathbf{r}'_i$
+        </div>
+        <div class="math-block">
+            $\mathbf{r}'_i \doteq (\vec{r}'_i - \vec{R}') = \mathbf{r}_i$
+        </div>
+        <div class="math-block">
+            $\mathbf{v}_i \doteq (\vec{v}_i - \vec{V}) - \vec{\omega} \times (\vec{r}_i - \vec{R}) = \mathbf{v}'_i$
+        </div>
+        <div class="math-block">
+            $\mathbf{v}'_i \doteq (\vec{v}'_i - \vec{V}') - \vec{\omega}' \times (\vec{r}'_i - \vec{R}') = \mathbf{v}_i$
+        </div>
+        <div class="math-block">
+            $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\vec{\omega} \times (\vec{r}_i - \vec{R})] - \vec{\alpha} \times (\vec{r}_i - \vec{R}) = \mathbf{a}'_i$
+        </div>
+        <div class="math-block">
+            $\mathbf{a}'_i \doteq (\vec{a}'_i - \vec{A}') - 2\vec{\omega}' \times (\vec{v}'_i - \vec{V}') + \vec{\omega}' \times [\vec{\omega}' \times (\vec{r}'_i - \vec{R}')] - \vec{\alpha}' \times (\vec{r}'_i - \vec{R}') = \mathbf{a}_i$
+        </div>
+
+        <hr>
+
+        <h2>IV. Bibliography</h2>
+
+        <ol>
+            <li>A. Blatter, <em>A Reformulation of Classical Mechanics</em> (2015). <a href="https://atorassa.github.io/physics-authors/blatter/english/pdf/09.pdf">[PDF]</a></li>
+            <li>A. Tobla, <em>A Reformulation of Classical Mechanics</em> (2024). <a href="https://atorassa.github.io/physics-authors/tobla/english/pdf/02.pdf">[PDF]</a></li>
+        </ol>
+
+    </div>
+</body>
+</html>
